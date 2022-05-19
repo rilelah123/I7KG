@@ -39,12 +39,13 @@ $ git checkout -b nombre-rama
 ```
 3. PUJAR EL COMMIT  
 
-```git
+```BASH
 // Agreguem els arxius a git.
 git add .
 // Fem un commit
 git commit -m "WHAT YOU CHANGED?"
-git branch -M FEATUR-NOMBRE-RAMA
+git push upstream nombre-rama
+
 ```
 4. ANAR A GITHUB
 Aneu al vostre github i hi haurà una opció de PULL REQUEST apreteu... 
