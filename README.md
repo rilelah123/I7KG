@@ -39,7 +39,7 @@ $ git checkout -b nombre-rama
 ```
 3. PUJAR EL COMMIT  
 
-```bash
+```git
 // Agreguem els arxius a git.
 git add .
 // Fem un commit
