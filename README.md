@@ -35,16 +35,21 @@ Llavors, cada cop que fem alguna cosa nova, fem una branca i la pujem. Després 
 Si voleu podem editar directament el main però crec que per tema de si estem fent coses a la vegada i eso, és millor així.
 2.1 Creació de la branca
 ```
-$ git checkout -b feature-nombre-rama
+$ git checkout -b nombre-rama
 ```
 3. PUJAR EL COMMIT  
-Agreguem els arxius a git.
+
+```bash
+// Agreguem els arxius a git.
 git add .
-Fem un commit
+// Fem un commit
 git commit -m "WHAT YOU CHANGED?"
 git branch -M FEATUR-NOMBRE-RAMA
-
-
+```
+4. ANAR A GITHUB
+Aneu al vostre github i hi haurà una opció de PULL REQUEST apreteu... 
+Això és per pujar els canvis al repositori general.
+Aviseu-me quan ho feu perquè crec que haig de ser jo qui faci una cosa.
 
 
 
